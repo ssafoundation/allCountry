@@ -12,7 +12,7 @@ const CountryDetails = () => {
             .then(res => res.json())
             .then(data => setDetails(data[0]))
 
-    }, []);
+    });
     const {
         capital,
         population,
